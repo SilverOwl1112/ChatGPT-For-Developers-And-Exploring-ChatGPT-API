@@ -26,7 +26,7 @@ Initially, a Java-based solution was developed to address the same problem. Howe
 3. Click the "Calculate CGPA" button to compute the SGPA for each semester and the overall CGPA.
 
 ## Contributors
-- [Your Name](https://github.com/yourusername) - Lead Developer
+- Nithilan Valan - Lead Developer
 
 ## Acknowledgements
 Special thanks to Mr. Suresh P sir for providing guidance and support throughout the development process, and to Mr. Kamaraj K sir for teaching me Java programming very well
