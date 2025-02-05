@@ -28,7 +28,7 @@ def main():
 
     for i in range(num_semesters):
         st.header(f"Semester {i+1}")
-        num_subjects = st.number_input(f"Enter the number of subjects for semester {i+1}:", min_value=1, max_value=10, value=1, step=1, key=f"num_subjects_sem{i}")
+        num_subjects = st.number_input(f"Enter the number of subjects for semester {i+1}:", min_value=1, max_value=20, value=1, step=1, key=f"num_subjects_sem{i}")
         subjects = []
         
         for j in range(num_subjects):
