@@ -43,8 +43,8 @@ def main():
         cgpa = calculate_cgpa(semesters)
         
         for idx, sgpa in enumerate(sgpas):
-            st.write(f"SGPA for Semester {idx+1}: {sgpa:.2f}")
-        st.write(f"Overall CGPA: {cgpa:.2f}")
+            st.write(f"SGPA for Semester {idx+1}: {sgpa:.5f}")
+        st.write(f"Overall CGPA: {cgpa:.5f}")
 
 if __name__ == "__main__":
     main()
